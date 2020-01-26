@@ -32,7 +32,6 @@ a{
   
 }
 
-
 a:hover {
     color: blue;
   }
@@ -89,5 +88,9 @@ h3{
 
 a:-webkit-any-link {
     cursor: pointer;
-   
 }
+
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
